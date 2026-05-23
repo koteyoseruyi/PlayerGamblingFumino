@@ -1,0 +1,19 @@
+name: PlayerGamblingFumino
+version: 1.0
+main: com.example.playergamblingfumino.PlayerGamblingFumino
+api-version: '1.21'
+depend: [Vault]
+
+commands:
+  gamble:
+    description: 玩家对赌主命令
+    aliases: [gambling, bet]
+    usage: |
+      /gamble invite <玩家名> - 发起对赌邀请
+      /gamble accept - 接受对赌邀请
+      /gamble disaccept - 拒绝对赌邀请
+
+permissions:
+  gambling.use:
+    description: 允许使用对赌功能
+    default: true

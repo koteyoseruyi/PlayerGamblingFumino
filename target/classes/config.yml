@@ -1,0 +1,11 @@
+# 对赌插件配置
+settings:
+  # 拔河参数
+  base-step: 0.2
+  gradient-step: 0.04
+
+  # 邀请超时（秒）
+  invite-timeout: 60
+
+  # 结果显示时间（秒）
+  result-display-time: 5
